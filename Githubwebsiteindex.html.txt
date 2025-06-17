@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Japsowin Kaur | Sr. Product Manager</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f9f9f9; color: #222; }
+    header { background: #232f3e; color: #fff; padding: 2rem 0; text-align: center; }
+    nav { background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.04); }
+    nav ul { display: flex; justify-content: center; list-style: none; margin: 0; padding: 0; }
+    nav li { margin: 0 1.5rem; }
+    nav a { color: #232f3e; text-decoration: none; font-weight: 500; padding: 1rem 0; display: block; }
+    nav a:hover { color: #0073b1; }
+    main { max-width: 800px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.04); }
+    h1, h2 { margin-top: 0; }
+    .linkedin { display: inline-block; margin-top: 1rem; color: #fff; background: #0073b1; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; }
+    .linkedin:hover { background: #005582; }
+    .projects { margin: 2rem 0; }
+    .project { margin-bottom: 1.5rem; }
+    .contact-form label { display: block; margin: 0.5rem 0 0.2rem; }
+    .contact-form input, .contact-form textarea { width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+    .contact-form button { background: #232f3e; color: #fff; border: none; padding: 0.7rem 1.5rem; border-radius: 4px; font-size: 1rem; cursor: pointer; }
+    .contact-form button:hover { background: #0073b1; }
+    @media (max-width: 600px) {
+      main { padding: 1rem; }
+      nav ul { flex-direction: column; }
+      nav li { margin: 0.5rem 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Japsowin Kaur</h1>
+    <p>Sr. Product Manager, Tech at Amazon<br>Leading the Worldwide Cart Experience</p>
+    <a class="linkedin" href="https://www.linkedin.com/in/japsowinkaur/" target="_blank">Connect on LinkedIn</a>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a Senior Product Manager at Amazon, leading the Worldwide Cart experience. With a passion for building impactful products at scale, I thrive at the intersection of technology, customer experience, and business strategy. My experience spans launching and optimizing high-traffic e-commerce features, collaborating cross-functionally, and driving measurable results.
+      </p>
+      <p>
+        <strong>Skills:</strong> Product Strategy, Roadmap Development, Data-Driven Decision Making, Cross-Functional Leadership, E-commerce, Customer Experience
+      </p>
+      <p>
+        Based in San Francisco, CA.
+      </p>
+    </section>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Amazon Cart Experience Redesign</h3>
+        <p>
+          Led a cross-functional team to redesign the Amazon Cart, improving conversion rates and customer satisfaction for millions of users worldwide.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Mobile Cart Optimization</h3>
+        <p>
+          Launched new mobile features that reduced cart abandonment by 15% and enhanced the mobile shopping experience across platforms.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Personalization Initiatives</h3>
+        <p>
+          Drove the implementation of personalized cart recommendations, leveraging machine learning to increase average order value.
+        </p>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form class="contact-form" action="mailto:japsowin@example.com" method="POST" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+      <p>Or connect with me on <a href="https://www.linkedin.com/in/japsowinkaur/" target="_blank">LinkedIn</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
